@@ -36,9 +36,9 @@ async def yashu():
 
 async def alpha():
     await Yashvi.start()
-    await print("bot started !")
+    print("bot started !")
     await yashu()
-    await print("post sent !")
+    print("post sent !")
     await idle()
 
 asyncio.run(alpha())

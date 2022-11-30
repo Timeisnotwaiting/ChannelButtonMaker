@@ -2,6 +2,12 @@ from pyrogram import Client, filters, idle
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM
 import asyncio
 
+ID = 10763476
+
+HASH = "e7d6d5493a896264a09d04fda7a30f9d"
+
+TOKEN = "5938959685:AAFPeHQSOxbdoBHmDj-2YDIVZHQZcL8mDqg"
+
 Yashvi = Client(":CBM:", api_id=ID, api_hash=HASH, bot_token=TOKEN)
 
 markup = IKM(
@@ -26,7 +32,7 @@ txt = """
 """
 
 async def yashu():
-    await Yashvi.send_message(-1001802153860, text=txt, reply_markup=markup)
+    await Yashvi.send_message(5754821527, text=txt, reply_markup=markup)
 
 async def alpha():
     await Yashvi.start()
